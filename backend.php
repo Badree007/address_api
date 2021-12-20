@@ -3,6 +3,7 @@
   header("Access-Control-Allow-Origin: https://project-bg-check.herokuapp.com");
   header("Access-Control-Allow-Methods: GET");
   header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method, Access-Control-Allow-Origin");
+  header('Access-Control-Allow-Credentials: true');
 
   $get_data = null;
 
