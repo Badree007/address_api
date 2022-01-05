@@ -1,0 +1,23 @@
+{
+  "name": "address_api",
+  "version": "1.0.0",
+  "description": "This application allows users to find cities of the postcode provided by them. It returns json file with the arrays of related values for the postcode provided.",
+  "main": "api_generator.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Badree007/address_api.git"
+  },
+  "author": "Badri Dahal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Badree007/address_api/issues"
+  },
+  "homepage": "https://github.com/Badree007/address_api#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

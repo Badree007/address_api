@@ -1,0 +1,36 @@
+[
+    {
+        "state": "NSW",
+        "places": [
+            {
+                "postcode": 2000,
+                "cities": ["Darling Harbour", "Dawes Point", "Haymarket", "Millers Point", "Parliament House", "Sydney", "Sydney South", "The Rocks"]
+            },
+            {
+                "postcode": 2204,
+                "cities": ["Marrickville", "Marrickville Metro", "Marrickville South"]
+            },
+            {
+                "postcode": 2150,
+                "cities": ["Harris Park", "Parramatta", "Parramatta Westfield"]
+            },
+            {
+                "postcode": 2170,
+                "cities": ["Casula", "Chipping Norton", "Hammondville", "Liverpool", "Liverpool South", "Lurnea", "Moorebank", "Mount Pritchard", "Prestons", "Warwick Farm"]
+            }
+        ]
+    },
+    {
+        "state": "VIC",
+        "places": [
+            {
+                "postcode": 3012,
+                "cities": ["Brooklyn", "Kingsville", "Kingsville West", "Maidstone", "Tottenham", "West Footscary"]
+            },
+            {
+                "postcode": 3020,
+                "cities": ["Albion", "Sunshine North", "Sunshine West", "Sunshine", "Glengala"]
+            }
+        ]
+    }
+]
