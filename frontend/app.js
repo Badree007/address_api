@@ -40,3 +40,21 @@ form.addEventListener("submit", function(e) {
         }
     })
 });
+
+const exampDataSuccess = {
+    status: "success",
+    noOfCities: 8,
+    data: {
+        state: "NSW",
+        postcode: 2000,
+        cities: ["Darling Harbour", "Dawes Point", "Haymarket", "Millers Point", "Parliament House", "Sydney", "Sydney South", "The Rocks"]
+    }
+}
+
+const exampDataFail = {
+    status: "fail",
+    message: "Postcode not found!"
+}
+
+document.getElementById("example-success").textContent = JSON.stringify(exampDataSuccess, undefined, 2);
+document.getElementById("example-fail").textContent = JSON.stringify(exampDataFail, undefined, 2);

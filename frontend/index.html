@@ -17,12 +17,24 @@
             height: 100%;
         }
         main {
-            margin: 5% auto;
+            margin: 5%;
             width: 80%;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
+        }
+
+        .wrapper, .api-info{
+            display: grid;
+            justify-items: center;
+        }
+
+        .resp-msg {
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
         }
        
         #form_postcode {
@@ -47,6 +59,24 @@
             <section>
                 <p><b>Valid Postcodes:</b> (2000, 2204, 2150, 2170, 3012, 3020)</p>
             </section>
+            </br>
+            <div class="api-info">
+                <p>To request for api, use following url:</br>
+                    https://api-postcode.herokuapp.com/api/{postcode}
+                </p>
+            </br>
+                <div class="resp-msg">
+                    <div class="success">
+                        <h4>Success example response for 2000.</h4>
+                        <pre id="example-success"></pre>    
+                    </div>
+                    <div class="fail">
+                        <h4>Failed response example.</h4>
+                        <pre id="example-fail"></pre>    
+                    </div>
+                </div>
+            </div>
+
             </br>
             <form action="" method="post" id="form_postcode">
                 <input type="number" id="postcode" placeholder="Enter Postcode" required></input>
