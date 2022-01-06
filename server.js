@@ -1,6 +1,6 @@
 const fs = require('fs');
 const express = require('express');
-// const cors = require('cors');
+const cors = require('cors');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
@@ -10,7 +10,7 @@ app.use(express.static('frontend'));
 app.use(express.json());
 
 //Allow frontend
-// app.use(cors());
+app.use(cors());
 // app.use(cors({
 //     origin: 'https://badridahal.netlify.app'
 // }))
